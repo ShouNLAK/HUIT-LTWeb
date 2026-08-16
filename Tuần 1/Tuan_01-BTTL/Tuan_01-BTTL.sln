@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12023.21 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuan_01-BTTL", "Tuan_01-BTTL\Tuan_01-BTTL.csproj", "{A83F9210-737A-46D1-80F9-434FEC44ECA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A83F9210-737A-46D1-80F9-434FEC44ECA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83F9210-737A-46D1-80F9-434FEC44ECA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83F9210-737A-46D1-80F9-434FEC44ECA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83F9210-737A-46D1-80F9-434FEC44ECA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5A0A56E-3780-48AC-8BFC-9646EE380083}
+	EndGlobalSection
+EndGlobal

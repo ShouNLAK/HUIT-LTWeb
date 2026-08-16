@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+}
+
+<div class="formDK">
+    <h1 style="text-align:center">ĐĂNG KÝ TÀI KHOẢN</h1>
+    <p>Tên khách hàng</p>
+    <input type="text" placeholder="Enter your name" />
+    <p>Địa chỉ Email</p>
+    <input type="email" placeholder="Enter your email" />
+    <p>Mật khẩu</p>
+    <input type="password" placeholder="Enter your password" />
+    <div class="gender">
+        <p>Giới tính</p>
+        <input type="radio" name="gender" value="male" />
+        <label for="male">Nam</label>
+        <input type="radio" name="gender" value="female" />
+        <label for="female">Nữ</label>
+    </div>
+    <p>Nghề nghiệp</p>
+    <select class="form-select" aria-label="Default select example">
+        <option disabled selected>Chọn nghề nghiệp</option>
+        <option value="1">Giáo viên</option>
+        <option value="2">Hiệu trưởng</option>
+        <option value="3">Lao công</option>
+    </select>
+    <button type="submit">Đăng ký</button>
+</div>
+

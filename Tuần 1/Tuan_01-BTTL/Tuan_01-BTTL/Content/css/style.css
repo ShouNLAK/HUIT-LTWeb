@@ -1,0 +1,99 @@
+body {
+    background-color: #f2f2f2;
+    font-size: 13px;
+}
+
+.site {
+    max-width: 1120px;
+    margin: 18px auto;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+}
+
+.top-head {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 8px 16px;
+}
+
+.green-bg {
+    background-color: #8ecb2c;
+}
+
+.title-sec {
+    font-size: 31px;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+
+.mini-link {
+    color: #2f89cf;
+    text-decoration: none;
+}
+
+.mini-link:hover {
+    text-decoration: underline;
+}
+
+.menu-title {
+    font-weight: 700;
+    color: #fff;
+    background-color: #8ecb2c;
+    padding: 7px 12px;
+}
+
+.list-group-item {
+    color: #4b8ec9;
+    font-size: 14px;
+}
+
+.product-name {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 8px 0 2px;
+}
+.formDK, .formDN {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    margin-bottom: 10px;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+}
+
+    .gender > input[type="radio"] {
+        width: 20%;
+        align-items: center;
+    }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    display: none;
+}

@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16F25081-76BF-4ECC-A039-CD925A0E17B6}|Tuan_01-BTTL3\\Tuan_01-BTTL3.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tu\u1EA7n 1\\tuan_01-bttl3\\tuan_01-bttl3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16F25081-76BF-4ECC-A039-CD925A0E17B6}|Tuan_01-BTTL3\\Tuan_01-BTTL3.csproj|solutionrelative:tuan_01-bttl3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F25081-76BF-4ECC-A039-CD925A0E17B6}|Tuan_01-BTTL3\\Tuan_01-BTTL3.csproj|C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\tuan_01-bttl3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16F25081-76BF-4ECC-A039-CD925A0E17B6}|Tuan_01-BTTL3\\Tuan_01-BTTL3.csproj|solutionrelative:tuan_01-bttl3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F25081-76BF-4ECC-A039-CD925A0E17B6}|Tuan_01-BTTL3\\Tuan_01-BTTL3.csproj|C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\tuan_01-bttl3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F25081-76BF-4ECC-A039-CD925A0E17B6}|Tuan_01-BTTL3\\Tuan_01-BTTL3.csproj|solutionrelative:tuan_01-bttl3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F25081-76BF-4ECC-A039-CD925A0E17B6}|Tuan_01-BTTL3\\Tuan_01-BTTL3.csproj|C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\tuan_01-bttl3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F25081-76BF-4ECC-A039-CD925A0E17B6}|Tuan_01-BTTL3\\Tuan_01-BTTL3.csproj|solutionrelative:tuan_01-bttl3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\Tuan_01-BTTL3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tuan_01-BTTL3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\Tuan_01-BTTL3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Tuan_01-BTTL3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABMCAAAAAAAAAAAAACUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-16T15:42:57.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\Tuan_01-BTTL3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tuan_01-BTTL3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\Tuan_01-BTTL3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tuan_01-BTTL3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-16T15:41:35.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\Tuan_01-BTTL3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Tuan_01-BTTL3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\Tuan_01-BTTL3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Tuan_01-BTTL3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:41:25.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\Tuan_01-BTTL3\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Tuan_01-BTTL3\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tu\u1EA7n 1\\Tuan_01-BTTL3\\Tuan_01-BTTL3\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Tuan_01-BTTL3\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:41:15.087Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

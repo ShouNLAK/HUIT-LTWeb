@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "DangNhap";
+}
+
+<div class="formDN">
+    <h1>Đăng nhập tài khoản</h1>
+    <form id="loginForm" onsubmit="return validateForm(event)">
+        <div>
+            <p>Tên đăng nhập</p>
+            <input type="text" name="username" class="form-control" id="txtName" placeholder="Nhập tên đăng nhập">
+            <div id="errName" class="error-message">Sai tên đăng nhập</div>
+        </div>
+        <div>
+            <p>Mật khẩu</p>
+            <input type="password" name="password" class="form-control" id="txtPassword" placeholder="Nhập mật khẩu">
+            <div id="errPassword" class="error-message">Sai mật khẩu</div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+        </div>
+    </form>
+</div>
+
+<script>
+        function validateForm(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('txtName').value.trim();
+            const password = document.getElementById('txtPassword').value.trim();
+
+            document.getElementById('errName').style.display = 'none';
+            document.getElementById('errPassword').style.display = 'none';
+
+            let isValid = true;
+
+            if (username === '') {
+                document.getElementById('errName').textContent = 'Tên đăng nhập không được để trống';
+                document.getElementById('errName').style.display = 'block';
+                isValid = false;
+            }
+
+            if (password === '') {
+                document.getElementById('errPassword').textContent = 'Mật khẩu không được để trống';
+                document.getElementById('errPassword').style.display = 'block';
+                isValid = false;
+            }
+
+            if (isValid) {
+                alert('Đăng nhập thành công!');
+            }
+
+            return false;
+        }
+</script>

@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_1\\tuan_1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|solutionrelative:tuan_1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_1\\tuan_1\\views\\home\\index3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|solutionrelative:tuan_1\\views\\home\\index3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_1\\tuan_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|solutionrelative:tuan_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_1\\tuan_1\\views\\home\\hienthi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|solutionrelative:tuan_1\\views\\home\\hienthi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1.csproj|C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\tuan_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1.csproj|solutionrelative:tuan_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_1\\tuan_1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1-BTHD.csproj|solutionrelative:tuan_1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1.csproj|C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\tuan_1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1.csproj|solutionrelative:tuan_1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1.csproj|C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\tuan_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF534D2-50FF-4E9C-B060-5C09D3256BF7}|Tuan_1\\Tuan_1.csproj|solutionrelative:tuan_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Tuan_1\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Content\\Site.css",
+              "RelativeToolTip": "Tuan_1\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-11T07:00:08.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index3.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Views\\Home\\Index3.cshtml",
+              "RelativeDocumentMoniker": "Tuan_1\\Views\\Home\\Index3.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Views\\Home\\Index3.cshtml",
+              "RelativeToolTip": "Tuan_1\\Views\\Home\\Index3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-11T06:49:38.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HienThi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Views\\Home\\HienThi.cshtml",
+              "RelativeDocumentMoniker": "Tuan_1\\Views\\Home\\HienThi.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Views\\Home\\HienThi.cshtml",
+              "RelativeToolTip": "Tuan_1\\Views\\Home\\HienThi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-11T06:44:23.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Tuan_1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Tuan_1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T06:43:04.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Tuan_1\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Tuan_1\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T06:01:11.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Tuan_1\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Tuan_1\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-11T05:58:32.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tuan_1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Tuan_1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-11T05:58:24.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Tuan_1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_1\\Tuan_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Tuan_1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T05:57:35.047Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

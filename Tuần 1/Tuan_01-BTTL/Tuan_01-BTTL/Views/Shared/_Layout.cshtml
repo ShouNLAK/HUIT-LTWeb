@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowerShop - FlowerShop</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="site">
+        <div class="top-head row g-2 align-items-center">
+            <div class="col-12 col-md-4">
+                <h2 class="title-sec mb-0">Dienhoa24gio.com</h2>
+                <small class="text-success">Điện hoa toàn quốc</small>
+            </div>
+            <div class="col-12 col-md-4 text-muted">
+                <div>Điện thoại: 024.73007.008 - 091.4647.172</div>
+                <div>Địa chỉ: 56/34/45 Lạc Long Quân, Tây Hồ, Hà Nội</div>
+                <div>Email: info@dienhoa24gio.com</div>
+            </div>
+            <div class="col-12 col-md-4 text-muted">
+                <div>Điện thoại: 028.73007.008 - 094.7723.444</div>
+                <div>Địa chỉ: 189 XVNT Bình, P.17, Q.Bình Thạnh</div>
+                <div>Email: hcm@dienhoa24gio.com</div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light green-bg px-3">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBttl8">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBttl8">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-white" href="/Home/Index">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/Home/DangKy">Đăng ký</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/Home/DangNhap">Đăng nhập</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Liên hệ</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control form-control-sm me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-light btn-sm" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="p-3">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    @RenderBody()
+                </div>
+
+                <div class="col-12 col-lg-3 mt-3 mt-lg-0">
+                    <div class="menu-title">HOA THEO CHỦ ĐỀ</div>
+                    <div class="list-group rounded-0 mb-3">
+                        <a href="#" class="list-group-item list-group-item-action">HOA SINH NHẬT</a>
+                        <a href="#" class="list-group-item list-group-item-action">HOA KHAI TRƯƠNG</a>
+                        <a href="#" class="list-group-item list-group-item-action">LAN HỒ ĐIỆP</a>
+                        <a href="#" class="list-group-item list-group-item-action">HOA CƯỚI</a>
+                        <a href="#" class="list-group-item list-group-item-action">HOA LAN</a>
+                        <a href="#" class="list-group-item list-group-item-action">HOA CHIA BUỒN</a>
+                        <a href="#" class="list-group-item list-group-item-action">QUÀ TẶNG</a>
+                        <a href="#" class="list-group-item list-group-item-action">TRÁI CÂY</a>
+                    </div>
+                    <div class="menu-title">CHỌN THEO GIÁ</div>
+                    <div class="list-group rounded-0">
+                        <a href="#" class="list-group-item list-group-item-action">250.000đ trở xuống</a>
+                        <a href="#" class="list-group-item list-group-item-action">250.000đ - 400.000đ</a>
+                        <a href="#" class="list-group-item list-group-item-action">400.000đ - 600.000đ</a>
+                        <a href="#" class="list-group-item list-group-item-action">600.000đ - 900.000đ</a>
+                        <a href="#" class="list-group-item list-group-item-action">Trên 1.000.000đ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="green-bg text-white text-center py-3">
+            Liên hệ: Hoa Công nghệ Việt - Trường Đại học Công nghệ thông tin TP.HCM - Khu phố 6 Linh Trung<br>
+            Điện thoại: 140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP.HCM. DT: (028).38161673 ext 136 Mail: kont@hutech.edu.vn
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
