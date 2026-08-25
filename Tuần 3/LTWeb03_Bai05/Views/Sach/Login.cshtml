@@ -1,0 +1,43 @@
+@model LTWeb03_Bai05.Models.Sach
+
+@using (Html.BeginForm("ChiTiet", "Sach", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.maSach)
+    @Html.HiddenFor(x => x.tenSach)
+    @Html.HiddenFor(x => x.gia)
+    @Html.HiddenFor(x => x.anhBia)
+
+    <div class="container mt-5">
+        <div class="card shadow-sm mx-auto" style="max-width: 360px; border-radius: 8px; border-color: #ddd;">
+            <div class="card-body p-4">
+
+                <h4 class="text-center mb-4 fw-normal" style="color: #333;">ĐĂNG NHẬP</h4>
+
+                <div class="mb-3">
+                    <p class="form-label" style="font-size: 0.9rem; color: #444;">@Html.Label("Tên đăng nhập")</p>
+                    @Html.TextBox("Username", "", new { @class = "form-control" })
+                </div>
+
+                <div class="mb-3">
+                    <p class="form-label" style="font-size: 0.9rem; color: #444;">@Html.Label("Password")</p>
+                    @Html.Password("Password", "", new { @class = "form-control" })
+                </div>
+
+                <div class="mb-3">
+                    <p class="form-label" style="font-size: 0.9rem; color: #444;">@Html.Label("Re-type Password")</p>
+                    @Html.Password("Retype-Password", "", new { @class = "form-control" })
+                </div>
+
+                <div class="form-check mb-4">
+                    <i>@Html.CheckBox("Remember")</i>
+                    <i>@Html.Label("Remember")</i>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 py-2" style="background-color: #0d6efd; border-radius: 6px;">
+                    ĐĂNG NHẬP
+                </button>
+
+            </div>
+        </div>
+    </div>
+}

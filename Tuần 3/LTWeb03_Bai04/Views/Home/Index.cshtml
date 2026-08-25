@@ -1,0 +1,104 @@
+﻿@model LTWeb03_Bai04.Models.Infomation
+
+@using (Html.BeginForm("Info", "Home", FormMethod.Post, new {enctype = "multipart/form-data"}))
+{
+
+    var rdo_1 = "Morning (2 - 4 - 6)";
+    var rdo_2 = "Afternoon (2 - 4 - 6)";
+    var rdo_3 = "Morning (3 - 5 - 7)";
+    var rdo_4 = "Afternoon (3 - 5 - 7)";
+    <div class="form-container">
+
+        <h2 class="fw-normal text-uppercase mb-3" style="font-size: 1.6rem;">
+            ENTER INFORMATION TO REGIST AN COURSE
+        </h2>
+        <hr class="mb-4" style="border-top: 1px solid #ddd;">
+
+        <div class="card mb-4 rounded-0 border-light-subtle shadow-sm" style="border-color: #ddd !important;">
+            <div class="card-header bg-light text-secondary rounded-0 py-2" style="font-size: 0.85rem; border-bottom: 1px solid #ddd;">
+                Identificate Information
+            </div>
+            <div class="card-body pt-3 pb-4">
+                <form>
+                    <div class="mb-3">
+                        <p><b>@Html.Label("Full Name")</b></p>
+                        @Html.TextBoxFor(x => x.FullName)
+                        @Html.ValidationMessageFor(x => x.FullName, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="mb-3">
+                        <p><b>@Html.Label("ID Student")</b></p>
+                        @Html.TextBoxFor(x => x.IdStudent)
+                        @Html.ValidationMessageFor(x=>x.IdStudent,"",new { @class = "text-danger" })
+                    </div>
+
+                    <div class="mb-3">
+                        <p><b>@Html.Label("Email")</b></p>
+                        @Html.TextBoxFor(x => x.Email)
+                    </div>
+
+                    <div class="mb-3">
+                        <p><b>@Html.Label("File Image Input")</b></p>
+                        <input type="file" name="Picture" accept="image/*"/>
+                    </div>
+
+                    <div class="mb-1">
+                        <p><b>@Html.Label("Note")</b></p>
+                        @Html.TextAreaFor(x => x.Note)
+                    </div>
+                </form>
+            </div>
+
+            <div class="mb-4">
+                <p><b>@Html.Label("We are known by")</b></p>
+                <div class="form-check mb-1">
+                    @Html.CheckBoxFor(x => x.Check1)
+                    <i>Television</i>
+                </div>
+                <div class="form-check mb-1">
+                    @Html.CheckBoxFor(x => x.Check2)
+                    <i>Website</i>
+                </div>
+                <div class="form-check mb-1">
+                    @Html.CheckBoxFor(x => x.Check3)
+                    <i>Newspaper</i>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <p><b>@Html.Label("Choose Work Study")</b></p>
+                <div class="form-check mb-1">
+                    @Html.RadioButtonFor(x => x.ChooseWorkTime, rdo_1)
+                    <i>@Html.Label(rdo_1)</i>
+                </div>
+                <div class="form-check mb-1">
+                    @Html.RadioButtonFor(x => x.ChooseWorkTime, rdo_2)
+                    <i>@Html.Label(rdo_2)</i>
+                </div>
+                <div class="form-check mb-1">
+                    @Html.RadioButtonFor(x => x.ChooseWorkTime, rdo_3)
+                    <i>@Html.Label(rdo_3)</i>
+                </div>
+                <div class="form-check mb-1">
+                    @Html.RadioButtonFor(x => x.ChooseWorkTime, rdo_4)
+                    <i>@Html.Label(rdo_4)</i>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <b>@Html.Label("Selects an course")</b>
+                @Html.DropDownListFor(x => x.SelectCourse, (SelectList)ViewBag.Courses)
+            </div>
+
+            <div class="pt-3 pb-5 mt-4 border-top" style="border-color: #ddd !important;">
+                <button type="submit" class="btn btn-light bg-white border text-dark me-2 rounded-1" style="font-size: 0.9rem;">
+                    Submit Button
+                </button>
+                <button type="reset" class="btn btn-light bg-white border text-dark rounded-1" style="font-size: 0.9rem;">
+                    Reset Button
+                </button>
+            </div>
+        </div>
+
+    </div>
+}

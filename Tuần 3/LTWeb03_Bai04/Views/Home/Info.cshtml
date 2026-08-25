@@ -1,0 +1,12 @@
+﻿@model LTWeb03_Bai04.Models.Infomation
+
+<h1>ARE YOU READY ? YOUR INFORMATION IS CORRECT</h1>
+<p> Your full name : @Model.FullName</p>
+<p> Your ID Student : @Model.IdStudent</p>
+<p> Your Email : @Model.Email</p>
+<p> Your photo : <img src="@Model.FileImage" /> </p>
+<p> Your note : @Model.Note</p>
+<p> We are known by : @ViewBag.KnownByResult</p>
+<p> Choose work time : @Model.ChooseWorkTime</p>
+<p> Select an course : @Model.SelectCourse</p>
+<b>If your information is incorrect. Please go back to <a href="/Home/Index">Index page</a></b>

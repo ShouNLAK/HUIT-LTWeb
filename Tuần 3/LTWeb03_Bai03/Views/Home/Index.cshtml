@@ -1,0 +1,17 @@
+﻿@model LTWeb03_Bai03.Models.Product
+@using (Html.BeginForm("Add", "Home"))
+            {
+                <div>
+                    <div>
+                        @Html.Label("Tên sản phẩm : ","Name")
+                        @Html.TextBoxFor(x=>x.tenSP)
+                    </div>
+                    <div>
+                        @Html.Label("Giá : ","Price")
+                        @Html.TextBoxFor(x=>x.giaTien)
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            }

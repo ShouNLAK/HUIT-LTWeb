@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\ltweb_tuan03\\ltweb03_bai05\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|solutionrelative:ltweb03_bai05\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\ltweb_tuan03\\ltweb03_bai05\\views\\sach\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|solutionrelative:ltweb03_bai05\\views\\sach\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\ltweb_tuan03\\ltweb03_bai05\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|solutionrelative:ltweb03_bai05\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\ltweb_tuan03\\ltweb03_bai05\\models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|solutionrelative:ltweb03_bai05\\models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\ltweb_tuan03\\ltweb03_bai05\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|solutionrelative:ltweb03_bai05\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\ltweb_tuan03\\ltweb03_bai05\\views\\sach\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E9C3742-F185-4F6F-A5CC-E49FFD20DCEE}|LTWeb03_Bai05\\LTWeb03_Bai05.csproj|solutionrelative:ltweb03_bai05\\views\\sach\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4212C6FC-5CB5-40FA-90D7-50D759F787E6}|LTWeb03_Bai04\\LTWeb03_Bai04.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\ltweb_tuan03\\ltweb03_bai04\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4212C6FC-5CB5-40FA-90D7-50D759F787E6}|LTWeb03_Bai04\\LTWeb03_Bai04.csproj|solutionrelative:ltweb03_bai04\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4212C6FC-5CB5-40FA-90D7-50D759F787E6}|LTWeb03_Bai04\\LTWeb03_Bai04.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\ltweb_tuan03\\ltweb03_bai04\\models\\infomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4212C6FC-5CB5-40FA-90D7-50D759F787E6}|LTWeb03_Bai04\\LTWeb03_Bai04.csproj|solutionrelative:ltweb03_bai04\\models\\infomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "LTWeb03_Bai05\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "LTWeb03_Bai05\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T08:47:49.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Views\\Sach\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "LTWeb03_Bai05\\Views\\Sach\\ChiTiet.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Views\\Sach\\ChiTiet.cshtml",
+              "RelativeToolTip": "LTWeb03_Bai05\\Views\\Sach\\ChiTiet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-25T08:56:02.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Views\\Sach\\Login.cshtml",
+              "RelativeDocumentMoniker": "LTWeb03_Bai05\\Views\\Sach\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Views\\Sach\\Login.cshtml",
+              "RelativeToolTip": "LTWeb03_Bai05\\Views\\Sach\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-25T08:42:00.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai04\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LTWeb03_Bai04\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai04\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LTWeb03_Bai04\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T08:38:54.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Infomation.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai04\\Models\\Infomation.cs",
+              "RelativeDocumentMoniker": "LTWeb03_Bai04\\Models\\Infomation.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai04\\Models\\Infomation.cs",
+              "RelativeToolTip": "LTWeb03_Bai04\\Models\\Infomation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T08:38:53.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sach.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Models\\Sach.cs",
+              "RelativeDocumentMoniker": "LTWeb03_Bai05\\Models\\Sach.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Models\\Sach.cs",
+              "RelativeToolTip": "LTWeb03_Bai05\\Models\\Sach.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T08:32:08.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SachController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Controllers\\SachController.cs",
+              "RelativeDocumentMoniker": "LTWeb03_Bai05\\Controllers\\SachController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Controllers\\SachController.cs*",
+              "RelativeToolTip": "LTWeb03_Bai05\\Controllers\\SachController.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T08:32:07.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Views\\Sach\\Index.cshtml",
+              "RelativeDocumentMoniker": "LTWeb03_Bai05\\Views\\Sach\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\LTWeb_Tuan03\\LTWeb03_Bai05\\Views\\Sach\\Index.cshtml",
+              "RelativeToolTip": "LTWeb03_Bai05\\Views\\Sach\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-25T08:29:59.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

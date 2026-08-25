@@ -1,0 +1,12 @@
+﻿@using (Html.BeginForm("Login", "Home"))
+{
+    <div>
+        @Html.Label("Tên người dùng", "Username")
+        @Html.TextBox("Username", "")
+    </div>
+    <div>
+        @Html.Label("Mật khẩu", "Password")
+        @Html.Password("Password")
+    </div>
+    <button type="submit"> Submit</button>
+}

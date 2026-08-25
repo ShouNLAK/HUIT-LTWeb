@@ -1,0 +1,63 @@
+@model LTWeb03_Bai05.Models.Sach
+
+@{
+    ViewBag.Title = "Chi Tiết Sách";
+}
+
+<div class="container mt-4" style="max-width: 800px;">
+    <h2 class="text-center text-success text-uppercase fw-bold mb-4">THÔNG TIN CHI TIẾT SÁCH</h2>
+    <hr />
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light text-secondary py-2" style="font-size: 0.85rem; border-bottom: 1px solid #ddd;">
+            Thông tin sách
+        </div>
+        <div class="card-body">
+            <p><b>Mã Sách:</b> @Model.maSach</p>
+            <p><b>Tên Sách:</b> @Model.tenSach</p>
+            <p><b>Giá:</b> @(Model.gia.HasValue ? Model.gia.Value.ToString("N0") + " VNĐ" : "Chưa nhập")</p>
+            <p><b>Ảnh Bìa:</b></p>
+            <img src="@Model.anhBia" alt="Ảnh bìa sách" style="max-width: 200px; border: 1px solid #ddd; padding: 4px;" />
+        </div>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light text-secondary py-2" style="font-size: 0.85rem; border-bottom: 1px solid #ddd;">
+            Thông tin đăng nhập
+        </div>
+        <div class="card-body">
+            <p><b>Tên đăng nhập:</b> @ViewBag.Username</p>
+            <p><b>Mật khẩu:</b> @ViewBag.Password</p>
+        </div>
+    </div>
+
+    <b>Nếu thông tin chưa đúng, vui lòng quay lại <a href="/Sach/Index">trang nhập sách</a></b>
+
+    <h3 class="mt-5 mb-3 text-center text-primary text-uppercase fw-bold">DANH SÁCH CÁC SÁCH TRONG KHO</h3>
+    <table class="table table-bordered align-middle text-center shadow-sm">
+        <thead style="background-color: #fdf3e7;">
+            <tr>
+                <th class="py-3">Mã Sách</th>
+                <th class="py-3">Tên Sách</th>
+                <th class="py-3">Giá</th>
+                <th class="py-3">Ảnh Bìa</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.DanhSach != null)
+            {
+                foreach (var sach in ViewBag.DanhSach as List<LTWeb03_Bai05.Models.Sach>)
+                {
+                    <tr>
+                        <td>@sach.maSach</td>
+                        <td class="text-start">@sach.tenSach</td>
+                        <td>@(sach.gia.HasValue ? sach.gia.Value.ToString("N0") : "0")</td>
+                        <td>
+                            <img src="@sach.anhBia" alt="Ảnh bìa @sach.tenSach" style="max-height: 120px; max-width: 100px; object-fit: contain;" />
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

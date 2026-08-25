@@ -1,0 +1,37 @@
+@model LTWeb03_Bai05.Models.Sach
+
+<div class="container mt-4" style="max-width: 800px;">
+    @using (Html.BeginForm("Login", "Sach", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <h2 class="text-center text-primary text-uppercase fw-bold mb-4">
+            NHẬP SÁCH VÀO KHO
+        </h2>
+
+        <div class="mb-3">
+            <label class="form-label">Mã Sách:</label>
+            @Html.TextBoxFor(x => x.maSach, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.maSach, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tên sách:</label>
+            @Html.TextBoxFor(x => x.tenSach, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.tenSach, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Giá:</label>
+            @Html.TextBoxFor(x => x.gia, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.gia, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-4">
+            <label class="form-label">Ảnh Bìa:</label>
+            <input type="file" name="BiaSach" class="form-control" />
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary text-uppercase px-4">Nhập</button>
+        </div>
+    }
+</div>
