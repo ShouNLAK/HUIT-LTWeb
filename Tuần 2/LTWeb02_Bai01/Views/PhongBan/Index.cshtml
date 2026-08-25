@@ -1,0 +1,18 @@
+﻿@model List<LTWeb02_Bai01.Models.PhongBan>
+
+<body>
+    <div>
+        <h1 style="align-content:center; background-color:red; color:yellow">Danh sách phòng ban</h1>
+        @if (Model != null)
+        {
+            <ol>
+                @foreach(LTWeb02_Bai01.Models.PhongBan item in Model)
+                {
+
+                <li>@item.TenPhong (P.@item.MaPhong)</li>
+            
+        }
+        </ol>
+        }
+    </div>
+</body>

@@ -1,0 +1,26 @@
+﻿<body>
+    <table class="table table-hover text-center align-middle mt-3">
+        <thead>
+            <tr class="border-bottom border-dark">
+                <th scope="col" class="fw-normal pb-3">Mã sách</th>
+                <th scope="col" class="fw-normal pb-3 text-start">Tên sách</th>
+                <th scope="col" class="fw-normal pb-3">Giá</th>
+                <th scope="col" class="fw-normal pb-3">Hình ảnh</th>
+                <th scope="col" class="fw-normal pb-3">Mã loại</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (LTWeb02_Bai03.Models.Sach item in Model)
+            {
+                <tr class="border-bottom border-light">
+                    <td class="py-3">@item.MaSach</td>
+                    <td class="py-3 text-start">@item.TenSach</td>
+                    <td class="py-3">@item.Gia</td>
+                    <td class="py-3">@item.HinhAnh</td>
+                    <td class="py-3">@item.Loai.MaLoai</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>

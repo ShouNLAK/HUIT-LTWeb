@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    <div class="container-fluid border border-dark p-0 my-3" style="max-width: 1000px;">
+        <div class="row g-0">
+            <div class="col-md-3 border-end border-dark">
+                <div class="bg-black text-danger text-uppercase fs-5 p-2 m-1">
+                    Loại sách
+                </div>
+                <ul class="list-group list-group-flush text-center mt-2">
+                    @foreach (LTWeb02_Bai03.Models.LoaiSach Loai in ViewBag.LoaiSach)
+                    {
+                        <li class="list-group-item border-bottom border-light">
+                            <a href="/Sach/Index/@Loai.MaLoai" class="text-decoration-none text-dark">@Loai.TenLoai</a>
+                        </li>
+                    }
+
+                </ul>
+            </div>
+            <div class="col-md-9 border-end border-dark">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

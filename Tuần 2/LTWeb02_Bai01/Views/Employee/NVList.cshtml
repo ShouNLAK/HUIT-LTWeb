@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "NVList";
+}
+@using LTWeb02_Bai01.Models;
+<div>
+    <h1>Thông tin nhân viên</h1>
+    @{
+        if (ViewBag.DuLieu != null)
+        {
+            foreach (Employee NV in ViewBag.DuLieu)
+            {
+                <p>ID : <b>@NV.ID</b></p>
+                <p>Họ và tên : <b>@NV.Name</b></p>
+                <p>Địa chỉ : <b>@NV.Address</b></p>
+                <p>Mức lương : <b>@NV.Salary</b></p>
+            }
+        }
+    }
+</div>

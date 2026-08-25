@@ -1,0 +1,63 @@
+@model LTWeb02_Bai04.Models.Product
+
+@{
+    ViewBag.Title = Model.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var relatedProducts = ViewBag.RelatedProducts as List<LTWeb02_Bai04.Models.Product>;
+}
+
+<div class="p-2 mb-3 fw-bold text-uppercase" style="background-color: #f2f2f2; border: 1px solid #e0e0e0; font-size: 14px;">
+    @Model.Name
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-5 text-center p-3" style="border: 1px solid #e0e0e0;">
+        <img src="@Model.ImageUrl" alt="@Model.Name" class="img-fluid" />
+    </div>
+    
+    <div class="col-md-7 ps-4">
+        <div class="mb-2" style="font-size: 13px;">
+            <span class="fw-bold">MaSP: </span> @Model.Code 
+            <span class="fw-bold ms-4">Chiều dài: </span> @Model.Length
+        </div>
+        <div class="mb-3" style="font-size: 13px;">
+            <span class="fw-bold">Giá bán: </span> <span style="color:red; font-weight:bold;">@Model.Price</span>
+        </div>
+        
+        <div class="text-white p-2 mb-3 text-uppercase" style="background-color: #0066b3; font-size: 13px;">
+            THÔNG TIN CHI TIẾT
+        </div>
+        
+        <div style="font-size: 12px; line-height: 1.8;">
+            <p class="mb-2">@Model.Description</p>
+            <p class="mb-2">Đường kính ngoài: @Model.OuterDiameter</p>
+            <p class="mb-2">Độ dày: @Model.Thickness</p>
+            <p class="mb-2">Chiều dài cơ bản: @Model.BaseLength</p>
+            <p class="mb-2">Tiêu chuẩn cho phép: @Model.Standard</p>
+            <p class="mb-2">Hợp kim: @Model.Alloy</p>
+        </div>
+    </div>
+</div>
+
+<div class="p-2 mb-3 text-uppercase text-muted" style="background-color: #e9ecef; font-size: 12px;">
+    SẢN PHẨM CÙNG LOẠI
+</div>
+
+<div class="row">
+    @if(relatedProducts != null)
+    {
+        foreach(var item in relatedProducts)
+        {
+            <div class="col-md-4 text-center mb-3">
+                <div class="p-2 mb-2" style="border: 1px solid #e0e0e0;">
+                    <a href="/Home/Detail/@item.Id">
+                        <img src="@item.ImageUrl" alt="@item.Name" class="img-fluid" style="height:120px; object-fit:contain;" />
+                    </a>
+                </div>
+                <div style="font-size: 10px; text-transform:uppercase;">
+                    <a href="/Home/Detail/@item.Id" style="color:#000; text-decoration:none;">@item.Name</a>
+                </div>
+            </div>
+        }
+    }
+</div>

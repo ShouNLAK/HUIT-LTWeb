@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "MHList";
+}
+<body>
+    <div>
+        @{ 
+            if (ViewBag.DuLieu != null)
+            {
+                foreach (var item in ViewBag.DuLieu)
+                {
+                    @item <br/>
+                    }
+                }
+            }
+    </div>
+</body>
