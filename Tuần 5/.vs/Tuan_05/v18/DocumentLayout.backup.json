@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\views\\shared\\_showloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\views\\shared\\_showloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\models\\dulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\models\\dulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\tuan_05\\views\\shared\\_showpb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|solutionrelative:tuan_05\\views\\shared\\_showpb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\tuan_05\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|solutionrelative:tuan_05\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\tuan_05\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|solutionrelative:tuan_05\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\tuan_05\\models\\dulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|solutionrelative:tuan_05\\models\\dulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\tuan_05\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BA98D9F3-B208-40A9-8354-29715E50ACAB}|Tuan_05\\Tuan_05.csproj|solutionrelative:tuan_05\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_05\\bai_03\\models\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}|Bai_03\\Bai_03.csproj|solutionrelative:bai_03\\models\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Bai_03\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Bai_03\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-15T08:47:26.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_showPB.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Views\\Shared\\_showPB.cshtml",
+              "RelativeDocumentMoniker": "Tuan_05\\Views\\Shared\\_showPB.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Views\\Shared\\_showPB.cshtml",
+              "RelativeToolTip": "Tuan_05\\Views\\Shared\\_showPB.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-15T08:29:53.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_showLoai.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Shared\\_showLoai.cshtml",
+              "RelativeDocumentMoniker": "Bai_03\\Views\\Shared\\_showLoai.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Shared\\_showLoai.cshtml",
+              "RelativeToolTip": "Bai_03\\Views\\Shared\\_showLoai.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-15T08:29:42.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Bai_03\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Bai_03\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-15T08:29:03.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tuan_05\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tuan_05\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-15T08:28:52.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Tuan_05\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Tuan_05\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-15T08:28:51.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bai_03\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Bai_03\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-15T08:26:11.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DuLieu.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Models\\DuLieu.cs",
+              "RelativeDocumentMoniker": "Tuan_05\\Models\\DuLieu.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Models\\DuLieu.cs",
+              "RelativeToolTip": "Tuan_05\\Models\\DuLieu.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T08:21:35.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Web.config",
+              "RelativeDocumentMoniker": "Tuan_05\\Web.config",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Tuan_05\\Web.config",
+              "RelativeToolTip": "Tuan_05\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-15T08:19:03.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DuLieu.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\DuLieu.cs",
+              "RelativeDocumentMoniker": "Bai_03\\Models\\DuLieu.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\DuLieu.cs",
+              "RelativeToolTip": "Bai_03\\Models\\DuLieu.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwGYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T08:18:55.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Bai_03\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Views\\Web.config",
+              "RelativeToolTip": "Bai_03\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-15T08:02:17.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Web.config",
+              "RelativeDocumentMoniker": "Bai_03\\Web.config",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Web.config",
+              "RelativeToolTip": "Bai_03\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-15T08:02:09.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GioHang.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\GioHang.cs",
+              "RelativeDocumentMoniker": "Bai_03\\Models\\GioHang.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\GioHang.cs",
+              "RelativeToolTip": "Bai_03\\Models\\GioHang.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswA8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T08:01:54.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "Bai_03\\Models\\SanPham.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\SanPham.cs",
+              "RelativeToolTip": "Bai_03\\Models\\SanPham.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA9wBAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T08:00:37.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Loai.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\Loai.cs",
+              "RelativeDocumentMoniker": "Bai_03\\Models\\Loai.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\Loai.cs",
+              "RelativeToolTip": "Bai_03\\Models\\Loai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T07:59:22.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "Bai_03\\Models\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Models\\KhachHang.cs",
+              "RelativeToolTip": "Bai_03\\Models\\KhachHang.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T07:57:48.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Bai_03\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_05\\Bai_03\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Bai_03\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T07:52:23.593Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

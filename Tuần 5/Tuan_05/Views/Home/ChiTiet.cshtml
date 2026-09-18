@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Tuan_05.Models.NhanVien>
+
+@{
+    ViewBag.Title = "Danh sách nhân viên";
+}
+
+<h3>Danh sách nhân viên</h3>
+<p>Phòng : <b>@ViewBag.TenPhong</b></p>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">Không có nhân viên để hiển thị.</div>
+}
+else
+{
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Họ tên</th>
+                <th>Giới tính</th>
+                <th>Thành phố</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Gender)</td>
+                    <td>@Html.DisplayFor(modelItem => item.City)</td>
+                    <td>
+                        @Html.ActionLink("Xem chi tiết", "XemChiTiet", "NhanVien", new { id = item.Id },null)
+                        |
+                        @Html.ActionLink("Sửa", "Edit", "Home", new { id = item.Id }, null)
+                        |
+                        @Html.ActionLink("Xóa", "Delete", "Home", new { id = item.Id }, null)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

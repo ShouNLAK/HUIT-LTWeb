@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Quán Ăn Vặt Vui Vẻ</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .header-bg { 
+            background-color: #007bff; 
+            color: white; 
+            padding: 15px 0; 
+        }
+        .nav-bg { 
+            background-color: #20c997; 
+            padding: 10px 0; 
+
+        }
+        .nav-link-custom { 
+            color: white; 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: 500;
+
+        }
+        .nav-link-custom:hover {
+            color: #f8f9fa; 
+
+        }
+        body { 
+            background-color: #f1f3f5; 
+
+        }
+        .brand-text { 
+            font-weight: bold; 
+            font-size: 1.2rem; 
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header-bg">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <span style="font-size: 1.5rem; margin-right: 8px;">🏆</span>
+                <span class="brand-text">Quán Ăn Vặt Vui Vẻ</span>
+            </div>
+            <div>
+                <a href="/Home/MonAn" class="nav-link-custom">Chọn món</a>
+            </div>
+            <div>
+                <a href="#" class="nav-link-custom" style="font-size: 0.9rem;">Đăng nhập</a>
+                <a href="#" class="nav-link-custom" style="font-size: 0.9rem; margin-left: 0;">Đăng ký</a>
+            </div>
+        </div>
+    </div>
+    
+    @Html.Action("_Menu", "Home")
+
+    <div class="container body-content text-center">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12201.205 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuan_05", "Tuan_05\Tuan_05.csproj", "{BA98D9F3-B208-40A9-8354-29715E50ACAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_03", "Bai_03\Bai_03.csproj", "{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA98D9F3-B208-40A9-8354-29715E50ACAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA98D9F3-B208-40A9-8354-29715E50ACAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA98D9F3-B208-40A9-8354-29715E50ACAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA98D9F3-B208-40A9-8354-29715E50ACAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53B7D8B-9E0A-42F6-B079-40393C49FC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BB520E7-6630-4674-947C-0C0531D07997}
+	EndGlobalSection
+EndGlobal

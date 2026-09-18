@@ -1,0 +1,8 @@
+﻿@model List<Tuan_05.Models.PhongBan>
+
+@{ 
+    foreach (Tuan_05.Models.PhongBan pb in Model)
+            {
+                <p><a href="/Home/ChiTiet/@pb.Id">@pb.Name</a></p>
+            }
+}

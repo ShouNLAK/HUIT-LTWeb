@@ -1,0 +1,37 @@
+﻿@model BTTL_2.Models.Feedback
+@{ 
+    int[] sum = new int[5];
+    int sum_all = 0;
+    double phanTram;
+
+    for (int i = 4; i >= 0; i--)
+    {
+        sum[i] = Model.slDanhGiaTheosao[i] * (i+1) ;
+        sum_all += Model.slDanhGiaTheosao[i] * (i+1);
+    }
+    
+    
+        double avg = ((sum_all*1.0) / (Model.tongSoLuong * 5))*5;
+}
+
+<div>
+    <h1>Tổng quan đánh giá</h1>
+
+    <div>
+        <span class="fw-bold fs-5 text-dark"></span> @avg / 5
+        (Tổng: @Model.tongSoLuong đánh giá)
+    </div>
+
+    @for (int i =4; i >= 0; i--)
+    {
+        phanTram = (sum_all > 0) ? (Model.slDanhGiaTheosao[i] * 1.0 / Model.tongSoLuong) * 100 : 0;
+        <div class="star-row">
+            <div>@(i + 1)★</div>
+            <div class="progress">
+                <div class="progress-bar" style="width: @((int)(phanTram))%;" aria-valuenow="@phanTram" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div>@Model.slDanhGiaTheosao[i]</div>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,23 @@
+@model List<BTTL_3.Models.Product>
+
+@{
+    ViewBag.Title = "Món ăn";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 mb-4 d-flex justify-content-center">
+                <div class="card shadow-sm text-center" style="width: 100%; border-radius: 10px; padding: 20px 10px;">
+                    <img src=@item.Image class="card-img-top mx-auto mb-3" style="height: 150px; object-fit: contain; max-width: 100%;">
+                    <div class="card-body p-0">
+                        <h5 class="card-title fw-bold" style="font-size: 1.1rem; height: 50px;">@item.Name</h5>
+                        <p class="card-text text-muted mb-3">Giá: @item.Price.ToString("N0")đ</p>
+                        <a href="#" class="btn btn-success px-4 py-2" style="border-radius: 5px;">Thêm vào giỏ</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

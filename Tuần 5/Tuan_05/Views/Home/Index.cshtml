@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Tuan_05.Models.PhongBan>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Danh sách phòng ban</h3>
+
+<p>
+    <a class="btn btn-outline-primary" href="/Home/ChiTiet/0">
+        Xuất đầy đủ danh sách nhân viên
+    </a>
+</p>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">Không có phòng ban để hiển thị.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Tên phòng ban</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.Id)</td>
+                    <td>
+                        <a href="/Home/ChiTiet/@item.Id">
+                            @Html.DisplayFor(m => item.Name)
+                        </a>
+                    </td>
+                    <td>
+                        @Html.ActionLink("Xem chi tiết", "XemChiTiet", "PhongBan", new { id = item.Id },null) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

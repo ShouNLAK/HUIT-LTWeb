@@ -1,0 +1,13 @@
+@model List<BTTL_3.Models.Category>
+
+<div class="nav-bg mb-4">
+    <div class="container d-flex justify-content-center">
+        @if (Model != null)
+        {
+            foreach (var cat in Model)
+            {
+                <a href="@Url.Action("MonAn", "Home", new { id = cat.Id })" class="nav-link-custom">@cat.Name</a>
+            }
+        }
+    </div>
+</div>

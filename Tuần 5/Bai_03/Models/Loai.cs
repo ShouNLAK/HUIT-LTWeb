@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace Bai_03.Models
+{
+    public class Loai
+    {
+        public int MaLoai { get; set; }
+        public string TenLoai { get; set; }
+
+        public Loai(int maLoai, string tenLoai)
+        {
+            MaLoai = maLoai;
+            TenLoai = tenLoai;
+        }
+    }
+}

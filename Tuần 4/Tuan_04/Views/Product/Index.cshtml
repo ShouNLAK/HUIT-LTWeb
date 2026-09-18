@@ -1,0 +1,13 @@
+﻿@model  List<string>
+    @{ 
+        ViewBag.Title = "Danh sách sản phẩm";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+<h2>Danh sách sản phẩm</h2>
+<ul>
+    @foreach (var p in Model)
+    {
+        <li>@p</li>
+    }
+</ul>

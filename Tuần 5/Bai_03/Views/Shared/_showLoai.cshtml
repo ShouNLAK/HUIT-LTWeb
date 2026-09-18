@@ -1,0 +1,9 @@
+@model List<Bai_03.Models.Loai>
+
+<p><a href="@Url.Action("Index", "Home")">Tất cả</a></p>
+@{
+    foreach (Bai_03.Models.Loai l in Model)
+    {
+        <p><a href="@Url.Action("Index", "Home", new { MaLoai = l.MaLoai })">@l.TenLoai</a></p>
+    }
+}
