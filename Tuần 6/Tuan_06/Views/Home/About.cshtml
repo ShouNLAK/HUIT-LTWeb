@@ -1,0 +1,39 @@
+﻿@model Tuan_06.Models.SanPham
+
+<div class="row">
+    @{
+        <!-- Ảnh sản phẩm -->
+    <div class="col-md-4">
+        <img width="100%" src="@Url.Content("~/Content/Images/"+Model.Hinh)" class="img-fluid" />
+    </div>
+
+        <!-- Thông tin sản phẩm -->
+        <div class="col-md-8">
+            <h3>@Model.TenSP</h3>
+            <h4>@Model.Gia.ToString("N0") VNĐ</h4>
+            <p>
+                @Model.GhiChu
+            </p>
+            <div class="mb-3">
+                <button class="btn btn-success">Thêm vào giỏ</button>
+                <a href="Layout.html" class="btn btn-outline-secondary">Quay lại</a>
+            </div>
+        </div>
+    }
+</div>
+<div class="row">
+    @foreach (var sp in ViewBag.SPLienQuan)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="@Url.Content("~/Content/Images/"+sp.Hinh)" class="card-img-top" alt="@sp.TenSP">
+                <div class="card-body text-center">
+                    <h6 class="card-title">@sp.TenSP</h6>
+                    <p class="text-danger fw-bold">@sp.Gia.ToString("#,##0") VNĐ</p>
+                    <a href="@Url.Action("About","Home", new { id = sp.MaSP })"
+                       class="btn btn-sm btn-outline-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

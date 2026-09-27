@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Bai_On_Tap.Models.DanhMuc>
+
+@foreach (var dm in Model)
+{
+    <a href="@Url.Action("TimKiemTheoDanhMuc", "SanPham", new { maDM = dm.MaDM })"
+       class="list-group-item list-group-item-action @(Request["maDM"] == dm.MaDM.ToString() ? "active" : "")">
+       @dm.TenDM
+    </a>
+}

@@ -1,0 +1,18 @@
+﻿@model List<Tuan_06.Models.SanPham>
+
+<div class="row">
+    @foreach (var sp in Model)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="@Url.Content("~/Content/Images/"+sp.Hinh)" class="card-img-top" alt="@sp.TenSP">
+                <div class="card-body text-center">
+                    <h6 class="card-title">@sp.TenSP</h6>
+                    <p class="text-danger fw-bold">@sp.Gia.ToString("#,##0") VNĐ</p>
+                    <a href="@Url.Action("About", "Home", new { MaSP = sp.MaSP })"
+                       class="btn btn-sm btn-outline-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

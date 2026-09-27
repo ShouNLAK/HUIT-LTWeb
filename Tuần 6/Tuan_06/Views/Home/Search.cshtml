@@ -1,0 +1,47 @@
+@model List<Tuan_06.Models.SanPham>
+@{
+    ViewBag.Title = "Tìm kiếm sản phẩm";
+}
+
+<h2 class="mb-4">Tìm kiếm sản phẩm nâng cao</h2>
+
+@using (Html.BeginForm("Search", "Home", FormMethod.Get, new { @class = "row g-3 mb-4" }))
+{
+    <div class="col-md-3">
+        <label class="form-label">Loại sản phẩm</label>
+        @Html.DropDownList("MaLoai", null, "--- Tất cả ---", new { @class = "form-select" })
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Từ giá</label>
+        <input type="number" name="tuGia" class="form-control" value="@Request.QueryString["tuGia"]" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Đến giá</label>
+        <input type="number" name="denGia" class="form-control" value="@Request.QueryString["denGia"]" />
+    </div>
+    <div class="col-md-3 d-flex align-items-end">
+        <button type="submit" class="btn btn-primary w-100">Tìm kiếm</button>
+    </div>
+}
+
+<div class="row">
+    @if (Model != null && Model.Any())
+    {
+        foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@Url.Content("~/Content/Images/" + item.Hinh)" class="card-img-top" alt="@item.TenSP" style="height:250px; object-fit:contain;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-success">@item.TenSP</h5>
+                        <p class="card-text text-danger fw-bold">@item.Gia.ToString("#,##0") VNĐ</p>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-12"><div class="alert alert-warning">Không tìm thấy sản phẩm nào phù hợp!</div></div>
+    }
+</div>

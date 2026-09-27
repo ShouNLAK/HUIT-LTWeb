@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Bai_On_Tap.Models.SanPham>
+
+<h2 class="mb-4">Danh sách hoa</h2>
+<div class="row">
+    @foreach (var sp in Model)
+    {
+        <div class="col-md-3 mb-3">
+            <div class="card shadow-sm h-100">
+                <div class="thumb">
+                    <img src="~/Content/images/@sp.Hinh" class="card-img-top" alt="@sp.TenSP" />
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@sp.TenSP</h5>
+                    <p class="text-danger fw-bold">@sp.Gia.ToString("N0") VNĐ</p>
+                    <a href="@Url.Action("ChiTiet", "SanPham", new { id=sp.MaSP })" class="btn btn-sm btn-success mt-auto btn-custom">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

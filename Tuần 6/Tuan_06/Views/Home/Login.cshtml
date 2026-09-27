@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập";
+}
+
+<div class="login-container mt-4 mb-5" style="width: 400px; margin:auto">
+    <div class="card shadow-lg p-3">
+        <h3 class="card-title text-center fw-bold text-primary mb-4">Đăng nhập</h3>
+        @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+        {
+            if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger text-center">@ViewBag.Error</div>
+            }
+            <div class="mb-3">
+                <label for="soDienThoai" class="form-label">Số điện thoại</label>
+                <input type="text" class="form-control" name="soDienThoai" id="soDienThoai" required>
+            </div>
+            <div class="mb-3">
+                <label for="matKhau" class="form-label">Mật khẩu</label>
+                <input type="password" class="form-control" name="matKhau" id="matKhau" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 mb-3">ĐĂNG NHẬP</button>
+            <p class="text-center">
+                Chưa có tài khoản? <a href="#" class="text-decoration-none fw-bold">Đăng ký ngay</a>
+            </p>
+        }
+    </div>
+</div>

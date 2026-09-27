@@ -1,0 +1,28 @@
+@model List<Tuan_06.Models.HoaDon>
+@{
+    ViewBag.Title = "Lịch sử giao dịch";
+}
+
+<h2 class="mb-4">Lịch sử giao dịch của bạn</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Mã hóa đơn</th>
+            <th>Ngày tạo</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaHoaDon</td>
+                <td>@item.NgayTao.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a href="@Url.Action("ChiTietHD", "Home", new { maHD = item.MaHoaDon })" class="btn btn-sm btn-info text-white">Xem chi tiết</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

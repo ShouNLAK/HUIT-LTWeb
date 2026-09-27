@@ -1,0 +1,15 @@
+﻿@model List<Tuan_06.Models.Loai>
+
+<!-- Menu trái -->
+<aside>
+    <h5 class="fw-bold">Danh mục</h5>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-action active"><a href="#" class="text-decoration-none">Xem tất cả</a></li>
+        @{
+            foreach (Tuan_06.Models.Loai loai in Model)
+            {
+                <li class="list-group-item list-group-item-action"><a href="@Url.Action("Index", "Home",new { MaLoai = loai.MaLoai})" class="text-decoration-none">@loai.TenLoai</a></li>
+            }
+        }
+    </ul>
+</aside>
