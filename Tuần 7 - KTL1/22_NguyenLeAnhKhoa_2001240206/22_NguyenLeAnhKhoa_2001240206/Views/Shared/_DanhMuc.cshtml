@@ -1,0 +1,9 @@
+﻿@model List<_22_NguyenLeAnhKhoa_2001240206.Models.Categories>
+
+@foreach (var dm in Model)
+{
+    <a href="@Url.Action("TimKiemTheoDanhMuc", new { CategoryID = dm.CategoryID })"
+       class="list-group-item list-group-item-action @(Request["CategoryID"] == dm.CategoryID.ToString() ? "active" : "")">
+        @dm.CategoryName
+    </a>
+}

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-dark" href="#"><i class="bi bi-flower1 text-danger"></i> Logo thương hiệu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Index")">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Product")">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+                <!-- Search -->
+                @using (Html.BeginForm("TimKiem", "Home", FormMethod.Get, new { @class = "d-flex ms-auto" }))
+                {
+                    <input class="form-control me-2" type="search" name="keyword" placeholder="Tìm kiếm" aria-label="Tìm kiếm" />
+                    <button class="btn btn-light" type="submit">Tìm</button>
+                }
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="container mt-4">
+        <div class="row">
+
+            <!-- Nội dung sản phẩm -->
+            <main class="col-md-9 col-lg-9">
+                @RenderBody()
+            </main>
+
+
+            <!-- Menu phải -->
+            <aside class="col-md-3 col-lg-3 mb-4">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-header bg-warning text-dark fw-bold">
+                        Danh mục sản phẩm
+                    </div>
+                    <div class="list-group list-group-flush">
+                        @Html.Action("_DanhMuc")
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light mt-5 pt-4 pb-3">
+        <div class="container">
+            <div class="row">
+                <!-- Giới thiệu -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">OptiLook</h5>
+                    <p>
+                        Chuyên cung cấp các dòng gọng kính thời trang, kính mắt cao cấp và tròng kính chính hãng.
+                        Chúng tôi cam kết mang đến giải pháp chăm sóc thị lực toàn diện cùng trải nghiệm mua sắm hiện đại, uy tín cho mọi khách hàng.
+                    </p>
+                </div>
+
+                <!-- Liên kết nhanh -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Liên kết nhanh</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="@Url.Action("Index")" class="text-light text-decoration-none">Trang chủ</a></li>
+                        <li><a href="@Url.Action("Product")" class="text-light text-decoration-none">Sản phẩm</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Liên hệ -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Liên hệ</h5>
+                    <p><i class="bi bi-geo-alt"></i> 123 Đường Cách mạng Tháng tám, TP.HCM</p>
+                    <p><i class="bi bi-telephone"></i> 0909 999 888</p>
+                    <p><i class="bi bi-envelope"></i> contact@optilook.com</p>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="text-center">
+                <small>&copy; 2026 OptiLook. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

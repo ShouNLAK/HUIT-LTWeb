@@ -1,0 +1,67 @@
+﻿@model _22_NguyenLeAnhKhoa_2001240206.Models.Products
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Hình ảnh sản phẩm -->
+        <div class="col-md-5">
+            <div class="card shadow-sm border-0">
+                <img src="~/Content/images/@Model.Avatar" class="card-img-top rounded" alt="@Model.ProductName">
+            </div>
+        </div>
+        <!-- Thông tin sản phẩm -->
+        <div class="col-md-7">
+            <h2 class="mb-3 text-primary">@Model.ProductName</h2>
+            <h4 class="text-danger fw-bold">@String.Format("{0:N0} VNĐ", Model.Price)</h4>
+            @{ 
+                if (Model.CategoryID.CategoryID == 1 || Model.CategoryID.CategoryID == 2)
+                {
+                <div>
+                    <p><b>Chọn màu sắc : </b></p>
+                    @foreach (_22_NguyenLeAnhKhoa_2001240206.Models.Colors color in ViewBag.Color)
+                    {
+                        <button class="btn btn-outline-dark" style="background:@color.HexCode;"> </button>
+                    }
+                </div>
+                }
+            }
+            <p class="mt-3" style="line-height: 1.8; font-size: 1.1rem; text-align: justify;">
+                @Model.ShortDescription
+            </p>
+
+            <div class="mt-4">
+                <button class="btn btn-warning btn-lg px-4">
+                    <i class="bi bi-cart-plus"></i> Thêm vào giỏ
+                </button>
+                <a href="@Url.Action("Product")" class="btn btn-outline-secondary btn-lg px-4 ms-2">
+                    <i class="bi bi-arrow-left"></i> Quay lại
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gợi ý sản phẩm liên quan -->
+    @if (ViewBag.SanPhamLienQuan != null)
+    {
+        <div class="mt-5">
+            <h4 class="mb-3">Sản phẩm liên quan</h4>
+            <div class="row">
+                <!-- Render danh sách sản phẩm liên quan -->
+                @foreach (var sp in ViewBag.SanPhamLienQuan)
+                {
+                    <div class="col-md-3 mb-3">
+                        <div class="card shadow-sm h-100">
+                            <div class="thumb">
+                                <img src="~/Content/images/@sp.Avatar" class="card-img-top" style="height:185px" alt="@sp.ProductName" />
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">@sp.ProductName</h5>
+                                <p class="text-danger fw-bold">@sp.Price.ToString("N0") VNĐ</p>
+                                <a href="@Url.Action("About", new { ProductID =sp.ProductID })" class="btn btn-sm btn-warning mt-auto btn-custom">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>

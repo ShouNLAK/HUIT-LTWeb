@@ -1,0 +1,17 @@
+﻿
+<main>
+    <div class="card shadow-sm h-100">
+        <h1 style="margin-left:10px">Thông tin sinh viên</h1>
+        <p><b style="margin-left:10px">Mã số sinh viên : </b> @ViewBag.MSSV</p>
+        <p><b style="margin-left:10px">Họ và tên : </b> @ViewBag.HoVaTen</p>
+        <p><b style="margin-left:10px">Sở thích : </b></p>
+        @{ 
+            foreach (var hobby in ViewBag.Hobby)
+            {
+                <ul>
+                            <li style="margin-left:10px">@hobby</li>
+                </ul>
+            }
+        }
+    </div>
+</main>
