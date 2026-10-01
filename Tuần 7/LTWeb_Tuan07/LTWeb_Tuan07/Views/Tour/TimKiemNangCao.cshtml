@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Tìm kiếm Tour";
+}
+
+<div class="text-center mb-4">
+    <h3 class="text-purple" style="color: purple; font-weight: bold;">TÌM KIẾM TOUR</h3>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        @using (Html.BeginForm("KQTimKiemNangCao", "Tour", FormMethod.Post))
+        {
+            <h5 class="text-danger fw-bold mb-3">Chọn thông tin ngày khởi hành</h5>
+            
+            <div class="row mb-3 align-items-center">
+                <div class="col-md-3 text-end fw-bold">Từ ngày</div>
+                <div class="col-md-7">
+                    <input type="date" name="tuNgay" class="form-control border-dark rounded-0" />
+                </div>
+            </div>
+            
+            <div class="row mb-4 align-items-center">
+                <div class="col-md-3 text-end fw-bold">Đến ngày</div>
+                <div class="col-md-7">
+                    <input type="date" name="denNgay" class="form-control border-dark rounded-0" />
+                </div>
+            </div>
+
+            <h5 class="text-danger fw-bold mb-3">Chọn giá vé</h5>
+            
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="form-check mb-2">
+                        <input class="form-check-input border-dark" type="radio" name="giaVe" id="gia1" value="1">
+                        <label class="form-check-label fw-bold" for="gia1">0 - 1,000,000</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input border-dark" type="radio" name="giaVe" id="gia2" value="2">
+                        <label class="form-check-label fw-bold" for="gia2">1,000,000 - 3,000,000</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input border-dark" type="radio" name="giaVe" id="gia3" value="3">
+                        <label class="form-check-label fw-bold" for="gia3">3,000,000 - 5,000,000</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input border-dark" type="radio" name="giaVe" id="gia4" value="4">
+                        <label class="form-check-label fw-bold" for="gia4">&gt; 5,000,000</label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-primary rounded-0 px-4 py-2" style="background-color: #28a745; border-color: #000; color: blue; font-weight: bold;">Tìm</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>

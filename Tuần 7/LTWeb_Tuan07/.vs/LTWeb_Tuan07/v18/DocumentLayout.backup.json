@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\views\\tour\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\views\\tour\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\views\\tour\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\views\\tour\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\views\\tour\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\views\\tour\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\views\\shared\\_danhmuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\views\\shared\\_danhmuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\models\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\models\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\models\\dathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\models\\dathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\models\\datasql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\models\\datasql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\models\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\models\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\ltweb_tuan07\\models\\chitietdathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\models\\chitietdathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\models\\chitiettour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\models\\chitiettour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\views\\tour\\timkiemnangcao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\views\\tour\\timkiemnangcao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|c:\\users\\shou\\coding\\github\\huit-ltweb\\tuan_7\\ltweb_tuan07\\ltweb_tuan07\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9D6CB78D-E09C-45CF-BADC-CB203B32BC09}|LTWeb_Tuan07\\LTWeb_Tuan07.csproj|solutionrelative:ltweb_tuan07\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatHang.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\DatHang.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Models\\DatHang.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\DatHang.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Models\\DatHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T17:19:51.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\Tour.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Models\\Tour.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\Tour.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Models\\Tour.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T17:19:57.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Models\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\KhachHang.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Models\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T17:19:54.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DichVu.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\DichVu.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Models\\DichVu.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\DichVu.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Models\\DichVu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T17:19:52.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DanhMuc.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\DanhMuc.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Models\\DanhMuc.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\DanhMuc.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Models\\DanhMuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T17:19:48.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TourController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Controllers\\TourController.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Controllers\\TourController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Controllers\\TourController.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Controllers\\TourController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T17:19:41.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TimKiemNangCao.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Tour\\TimKiemNangCao.cshtml",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Views\\Tour\\TimKiemNangCao.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Tour\\TimKiemNangCao.cshtml",
+              "RelativeToolTip": "LTWeb_Tuan07\\Views\\Tour\\TimKiemNangCao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-01T17:19:34.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Tour\\Login.cshtml",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Views\\Tour\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Tour\\Login.cshtml",
+              "RelativeToolTip": "LTWeb_Tuan07\\Views\\Tour\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-01T17:19:32.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LTWeb_Tuan07\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-01T17:19:26.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_DanhMuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Shared\\_DanhMuc.cshtml",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Views\\Shared\\_DanhMuc.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Shared\\_DanhMuc.cshtml",
+              "RelativeToolTip": "LTWeb_Tuan07\\Views\\Shared\\_DanhMuc.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-01T17:19:23.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Web.config",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Web.config",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Web.config",
+              "RelativeToolTip": "LTWeb_Tuan07\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-10-01T16:15:36.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Tour\\Index.cshtml",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Views\\Tour\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Tour\\Index.cshtml",
+              "RelativeToolTip": "LTWeb_Tuan07\\Views\\Tour\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-01T16:15:25.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Tour\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Views\\Tour\\ChiTiet.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Views\\Tour\\ChiTiet.cshtml",
+              "RelativeToolTip": "LTWeb_Tuan07\\Views\\Tour\\ChiTiet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-01T16:15:20.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChiTietTour.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\ChiTietTour.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Models\\ChiTietTour.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\ChiTietTour.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Models\\ChiTietTour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T16:14:15.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\DataSQL.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Models\\DataSQL.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\DataSQL.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Models\\DataSQL.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAHIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T17:53:42.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChiTietDatHang.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\ChiTietDatHang.cs",
+              "RelativeDocumentMoniker": "LTWeb_Tuan07\\Models\\ChiTietDatHang.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Github\\HUIT-LTWeb\\Tuan_7\\LTWeb_Tuan07\\LTWeb_Tuan07\\Models\\ChiTietDatHang.cs",
+              "RelativeToolTip": "LTWeb_Tuan07\\Models\\ChiTietDatHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T17:53:41.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
