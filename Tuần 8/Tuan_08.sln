@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12224.181 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuan_08", "Tuan_08\Tuan_08.csproj", "{54E9A00F-79AB-410D-B559-ED28C7961AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuan_08_Bai2", "Tuan_08_Bai2\Tuan_08_Bai2.csproj", "{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54E9A00F-79AB-410D-B559-ED28C7961AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E9A00F-79AB-410D-B559-ED28C7961AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E9A00F-79AB-410D-B559-ED28C7961AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E9A00F-79AB-410D-B559-ED28C7961AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84043335-2505-4214-8A5C-22E64E5CC53B}
+	EndGlobalSection
+EndGlobal
