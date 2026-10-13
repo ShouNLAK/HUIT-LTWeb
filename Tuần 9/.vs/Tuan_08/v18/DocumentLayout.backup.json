@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\loaisach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\loaisach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\loaisach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\loaisach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\sach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\sach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\sach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\sach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\sach\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\sach\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\loaisach\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\loaisach\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\loaisach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\loaisach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\controllers\\loaisachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\controllers\\loaisachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\views\\news\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\views\\news\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\tblhinhanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\tblhinhanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\views\\news\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\views\\news\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08_bai2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_08\\tuan_08\\qltintuc.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{54E9A00F-79AB-410D-B559-ED28C7961AA3}|Tuan_08\\Tuan_08.csproj|solutionrelative:tuan_08\\qltintuc.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Sach\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Sach\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Sach\\Delete.cshtml*",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Sach\\Delete.cshtml*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAD8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T08:49:40.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Sach\\Add.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Sach\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Sach\\Add.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Sach\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T08:47:17.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Sach\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Sach\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Sach\\Index.cshtml*",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Sach\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T08:45:20.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Sach\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Sach\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Sach\\Edit.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Sach\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T08:41:12.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SachController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Controllers\\SachController.cs",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Controllers\\SachController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Controllers\\SachController.cs",
+              "RelativeToolTip": "Tuan_08_Bai2\\Controllers\\SachController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAqwHsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:43:21.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\LoaiSach\\Add.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\LoaiSach\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\LoaiSach\\Add.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\LoaiSach\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T07:43:16.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "tblHinhAnh.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\tblHinhAnh.cs",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\tblHinhAnh.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\tblHinhAnh.cs",
+              "RelativeToolTip": "Tuan_08_Bai2\\tblHinhAnh.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:43:06.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T07:35:35.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T07:35:31.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Tuan_08_Bai2\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:35:27.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\LoaiSach\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\LoaiSach\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\LoaiSach\\Delete.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\LoaiSach\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T07:34:14.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\LoaiSach\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\LoaiSach\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\LoaiSach\\Index.cshtml*",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\LoaiSach\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T07:33:18.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\LoaiSach\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\LoaiSach\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Views\\LoaiSach\\Edit.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\LoaiSach\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T07:32:29.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoaiSachController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Controllers\\LoaiSachController.cs",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Controllers\\LoaiSachController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08_Bai2\\Controllers\\LoaiSachController.cs",
+              "RelativeToolTip": "Tuan_08_Bai2\\Controllers\\LoaiSachController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswEMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:29:05.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\News\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08\\Views\\News\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\News\\Delete.cshtml",
+              "RelativeToolTip": "Tuan_08\\Views\\News\\Delete.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAD4v1gAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T07:16:34.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "Tuan_08\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T07:01:58.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Tuan_08\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Tuan_08\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwEIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:00:52.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08\\Views\\Category\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "Tuan_08\\Views\\Category\\Add.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T06:56:00.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Tuan_08\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T06:55:53.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Tuan_08\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T06:55:52.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Tuan_08\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Tuan_08\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:52:19.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\News.cs",
+              "RelativeDocumentMoniker": "Tuan_08\\News.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\News.cs",
+              "RelativeToolTip": "Tuan_08\\News.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:45:48.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QLTinTuc.tt",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\QLTinTuc.tt",
+              "RelativeDocumentMoniker": "Tuan_08\\QLTinTuc.tt",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\QLTinTuc.tt",
+              "RelativeToolTip": "Tuan_08\\QLTinTuc.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-13T06:45:44.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08\\Views\\News\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "Tuan_08\\Views\\News\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T06:26:04.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\News\\Add.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08\\Views\\News\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\News\\Add.cshtml",
+              "RelativeToolTip": "Tuan_08\\Views\\News\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T06:25:59.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\News\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08\\Views\\News\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\Tuan_08\\Views\\News\\Edit.cshtml",
+              "RelativeToolTip": "Tuan_08\\Views\\News\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-13T06:20:50.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
