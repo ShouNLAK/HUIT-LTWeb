@@ -1,4 +1,4 @@
-﻿@model Tuan_08_Bai2.tblSach
+@model Tuan_08_Bai2.tblSach
 
 @{
     ViewBag.Title = "Delete";
@@ -17,6 +17,20 @@
 
         <dd>
             @Html.DisplayFor(model => model.TenSach)
+        </dd>
+
+        <dt>
+            Hình Ảnh
+        </dt>
+
+        <dd>
+            @{
+                var img = Model.tblHinhAnh.FirstOrDefault();
+                if (img != null && !string.IsNullOrEmpty(img.HinhAnh))
+                {
+                    <img src="@Url.Content(img.HinhAnh)" alt="@Model.TenSach" style="width: 100px; height: auto;" />
+                }
+            }
         </dd>
 
         <dt>
@@ -48,7 +62,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.NoiDung)
+            @Html.Raw(Model.NoiDung)
         </dd>
 
         <dt>

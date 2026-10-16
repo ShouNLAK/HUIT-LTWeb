@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,9 +9,8 @@ namespace Tuan_08_Bai2.Controllers
 {
     public class SachController : Controller
     {
-        // GET: Sach
         QLSachEntities DB = new QLSachEntities();
-        // GET: News
+
         public ActionResult Index()
         {
             return View(DB.tblSach);
@@ -22,12 +21,20 @@ namespace Tuan_08_Bai2.Controllers
             ViewBag.Category = new SelectList(DB.tblLoaiSach, "MaLoai", "TenLoai");
             return View();
         }
+
         public ActionResult Edit(int id)
         {
-            ViewBag.Category = new SelectList(DB.tblLoaiSach, "MaLoai", "TenLoai");
+            var sach = DB.tblSach.Find(id);
+            ViewBag.Category = new SelectList(DB.tblLoaiSach, "MaLoai", "TenLoai", sach.LoaiSach);
+            return View(sach);
+        }
+
+        public ActionResult Delete(int id)
+        {
             return View(DB.tblSach.Find(id));
         }
-        public ActionResult Delete(int id)
+
+        public ActionResult Details(int id)
         {
             return View(DB.tblSach.Find(id));
         }
@@ -65,6 +72,7 @@ namespace Tuan_08_Bai2.Controllers
             return View("Add", sach);
         }
 
+        [HttpPost]
         public ActionResult EditOnSubmit(tblSach sach, HttpPostedFileBase Image)
         {
             if (ModelState.IsValid)
@@ -109,21 +117,28 @@ namespace Tuan_08_Bai2.Controllers
             ViewBag.Category = new SelectList(DB.tblLoaiSach, "MaLoai", "TenLoai", sach.LoaiSach);
             return View("Edit", sach);
         }
+
+        [HttpPost]
         public ActionResult DeleteOnSubmit(tblSach sach)
         {
             var existingSach = DB.tblSach.Find(sach.MaSach);
             if (existingSach != null)
             {
-                var existingHinhAnh = DB.tblHinhAnh.FirstOrDefault(x => x.MaSach == sach.MaSach);
-                if (existingHinhAnh != null)
+                var relatedDetails = DB.tblChiTietHoaDon.Where(x => x.MaSach == sach.MaSach).ToList();
+                if (relatedDetails.Count > 0)
                 {
-                    DB.tblHinhAnh.Remove(existingHinhAnh);
+                    DB.tblChiTietHoaDon.RemoveRange(relatedDetails);
+                }
+
+                var existingHinhAnh = DB.tblHinhAnh.Where(x => x.MaSach == sach.MaSach).ToList();
+                if (existingHinhAnh.Count > 0)
+                {
+                    DB.tblHinhAnh.RemoveRange(existingHinhAnh);
                 }
                 DB.tblSach.Remove(existingSach);
                 DB.SaveChanges();
             }
             return RedirectToAction("Index");
         }
-
     }
 }

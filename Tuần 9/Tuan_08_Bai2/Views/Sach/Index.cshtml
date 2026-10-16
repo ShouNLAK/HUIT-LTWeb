@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Tuan_08_Bai2.tblSach>
+@model IEnumerable<Tuan_08_Bai2.tblSach>
 
 @{
     ViewBag.Title = "Index";
@@ -13,6 +13,9 @@
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.TenSach)
+        </th>
+        <th>
+            Hình Ảnh
         </th>
         <th>
             @Html.DisplayNameFor(model => model.NamXB)
@@ -36,6 +39,15 @@
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.TenSach)
+        </td>
+        <td>
+            @{
+                var img = item.tblHinhAnh.FirstOrDefault();
+                if (img != null && !string.IsNullOrEmpty(img.HinhAnh))
+                {
+                    <img src="@Url.Content(img.HinhAnh)" alt="@item.TenSach" style="width: 80px; height: auto;" />
+                }
+            }
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.NamXB)

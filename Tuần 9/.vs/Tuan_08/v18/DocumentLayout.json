@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_08\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_09\\tuan_08_bai2\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_09\\tuan_08_bai2\\views\\sach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\sach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_09\\tuan_08_bai2\\views\\sach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\sach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_09\\tuan_08_bai2\\views\\sach\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\views\\sach\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|c:\\users\\shou\\coding\\microsoft visual studio\\tuan_09\\tuan_08_bai2\\controllers\\loaisachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E9D577-814D-4DD9-AEEF-6DF6516FC9C9}|Tuan_08_Bai2\\Tuan_08_Bai2.csproj|solutionrelative:tuan_08_bai2\\controllers\\loaisachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Views\\Sach\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Sach\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Views\\Sach\\Edit.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Sach\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T18:33:51.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Views\\Sach\\Details.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Sach\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Views\\Sach\\Details.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Sach\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T18:33:44.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Views\\Sach\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Sach\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Views\\Sach\\Delete.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Sach\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T18:33:41.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Views\\Sach\\Add.cshtml",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Views\\Sach\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Views\\Sach\\Add.cshtml",
+              "RelativeToolTip": "Tuan_08_Bai2\\Views\\Sach\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T18:33:39.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoaiSachController.cs",
+              "DocumentMoniker": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Controllers\\LoaiSachController.cs",
+              "RelativeDocumentMoniker": "Tuan_08_Bai2\\Controllers\\LoaiSachController.cs",
+              "ToolTip": "C:\\Users\\Shou\\Coding\\Microsoft Visual Studio\\Tuan_09\\Tuan_08_Bai2\\Controllers\\LoaiSachController.cs",
+              "RelativeToolTip": "Tuan_08_Bai2\\Controllers\\LoaiSachController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T18:33:05.762Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace Tuan_08_Bai2.Controllers
     public class LoaiSachController : Controller
     {
         QLSachEntities DB = new QLSachEntities();
-        // GET: LoaiSach
+
         public ActionResult Index()
         {
             return View(DB.tblLoaiSach);
@@ -31,6 +31,11 @@ namespace Tuan_08_Bai2.Controllers
             return View(DB.tblLoaiSach.Find(id));
         }
 
+        public ActionResult Details(int id)
+        {
+            return View(DB.tblLoaiSach.Find(id));
+        }
+
         public ActionResult CreateOnSubmit(tblLoaiSach loai)
         {
             if (ModelState.IsValid)
@@ -41,7 +46,7 @@ namespace Tuan_08_Bai2.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult EditOnSubmit (tblLoaiSach loai)
+        public ActionResult EditOnSubmit(tblLoaiSach loai)
         {
             if (ModelState.IsValid)
             {
