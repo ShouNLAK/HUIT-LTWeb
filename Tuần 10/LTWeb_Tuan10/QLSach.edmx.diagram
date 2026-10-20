@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="62d58caf2d5c4f66aa09b6a8820262a2" Name="Diagram1">
+        <EntityTypeShape EntityType="QLSach_T10Model.tblChiTietHoaDon" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblHinhAnh" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblHoaDon" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblKhachHang" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblLoaiSach" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblNXB" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblNhanVien" Width="1.5" PointX="0.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblSach" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblTinhTrang" Width="1.5" PointX="0.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSach_T10Model.tblVaiTro" Width="1.5" PointX="1.5" PointY="15.875" IsExpanded="true" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblChiTie__MaSac__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblChiTiet__MaHD__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblHinhAn__MaSac__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblHoaDon__MaKH__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblHoaDon__MaNV__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblHoaDon__TinhT__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblSach__LoaiSac__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblSach__NXB__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSach_T10Model.FK__tblNhanVi__VaiTr__59063A47" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

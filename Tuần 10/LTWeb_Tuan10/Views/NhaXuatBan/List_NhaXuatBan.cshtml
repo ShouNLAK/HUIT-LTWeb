@@ -1,0 +1,18 @@
+﻿@model IEnumerable<LTWeb_Tuan10.tblNXB>
+
+<table class="table">
+    <tr>
+        <th>
+            <b>Nhà xuất bản</b>
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <a href="@Url.Action("Index", "Sach", new { nxb = item.MaNXB })">@Html.DisplayFor(modelItem => item.TenNXB)</a>
+        </td>
+    </tr>
+}
+
+</table>

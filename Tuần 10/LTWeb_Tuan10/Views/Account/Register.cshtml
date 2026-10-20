@@ -1,0 +1,77 @@
+﻿@using (Html.BeginForm("Register_Save", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="text-center mb-0">Đăng ký tài khoản</h3>
+                    </div>
+                    <div class="card-body p-4">
+
+                        <div class="mb-3">
+                            <label for="TenKH" class="form-label fw-semibold">Họ và tên</label>
+                            <input type="text" class="form-control" id="TenKH" name="TenKH" placeholder="Nhập họ và tên" required>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="MatKhau" class="form-label fw-semibold">Mật khẩu</label>
+                                <input type="password" class="form-control" id="MatKhau" name="MatKhau" placeholder="Nhập mật khẩu" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="ConfirmMatKhau" class="form-label fw-semibold">Xác nhận mật khẩu</label>
+                                <input type="password" class="form-control" id="ConfirmMatKhau" name="ConfirmMatKhau" placeholder="Nhập lại mật khẩu" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-semibold d-block">Giới tính</label>
+                                <div class="form-check form-check-inline mt-1">
+                                    <input class="form-check-input" type="radio" name="GioiTinh" id="Nam" value="Nam" checked>
+                                    <label class="form-check-label" for="Nam">Nam</label>
+                                </div>
+                                <div class="form-check form-check-inline mt-1">
+                                    <input class="form-check-input" type="radio" name="GioiTinh" id="Nu" value="Nữ">
+                                    <label class="form-check-label" for="Nu">Nữ</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="NamSinh" class="form-label fw-semibold">Năm sinh</label>
+                                <input type="number" class="form-control" id="NamSinh" name="NamSinh" min="1900" max="@DateTime.Now.Year" value="2000" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="DienThoai" class="form-label fw-semibold">Số điện thoại</label>
+                                <input type="tel" class="form-control" id="DienThoai" name="DienThoai" placeholder="Nhập số điện thoại" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="Email" class="form-label fw-semibold">Email</label>
+                                <input type="email" class="form-control" id="Email" name="Email" placeholder="Nhập địa chỉ email" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Avatar" class="form-label fw-semibold">Ảnh đại diện (Avatar)</label>
+                            <input type="file" class="form-control" id="Avatar" name="Avatar">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="DiaChi" class="form-label fw-semibold">Địa chỉ</label>
+                            <textarea class="form-control" id="DiaChi" name="DiaChi" rows="2" placeholder="Nhập địa chỉ cư trú..."></textarea>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-success w-100">Đăng ký ngay</button>
+                            @Html.ActionLink("Quay lại đăng nhập", "Login", "Account", null, new { @class = "btn btn-outline-secondary w-100" })
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

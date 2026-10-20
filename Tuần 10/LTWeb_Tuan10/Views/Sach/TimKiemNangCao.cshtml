@@ -1,0 +1,44 @@
+﻿@using (Html.BeginForm("TimKiemNangCao_Form", "Sach", FormMethod.Post))
+{
+    <div class="container mt-4" style="max-width: 400px;">
+        <h3 class="mb-4 fw-bold">Tìm kiếm nâng cao</h3>
+
+        <div class="mb-3">
+            <label for="keyword" class="form-label fw-semibold">Tên sản phẩm</label>
+            <input type="text" id="keyword" name="keyword" class="form-control" placeholder="Từ khóa...." />
+        </div>
+
+        <div class="mb-3">
+            <label for="loai" class="form-label fw-semibold">Thể Loại</label>
+            @Html.DropDownList("loai", (SelectList)ViewBag.Category, "-- Chọn chủ đề --", new { @class = "form-select" })
+        </div>
+
+        <div class="mb-4">
+            <label class="form-label fw-semibold d-block mb-2">Giá</label>
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" value="0" name="Price" id="price0" />
+                <label class="form-check-label" for="price0">0 - 10.000 VND</label>
+            </div>
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" value="1" name="Price" id="price1" />
+                <label class="form-check-label" for="price1">10.000 - 20.000 VND</label>
+            </div>
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" value="2" name="Price" id="price2" />
+                <label class="form-check-label" for="price2">20.000 - 30.000 VND</label>
+            </div>
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" value="3" name="Price" id="price3" />
+                <label class="form-check-label" for="price3">Trên 40.000 VND</label>
+            </div>
+        </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary px-4 py-2">Tìm kiếm nâng cao</button>
+        </div>
+    </div>
+}

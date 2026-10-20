@@ -1,0 +1,47 @@
+﻿@model LTWeb_Tuan10.tblSach
+
+@{
+    <div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <img width="100%" src="~/Content/Images/@Model.AnhBia" class="img-fluid" alt="@Model.TenSach">
+        </div>
+
+        <!-- Thông tin sản phẩm -->
+        <div class="col-md-8">
+            <h3>@Model.TenSach</h3>
+            <h4 class="text-danger fw-bold mt-auto">@String.Format("{0:N0} đ", Model.GiaBan)</h4>
+            <p>
+                @Model.NoiDung
+            </p>
+            <div class="mb-3">
+                <button class="btn btn-success">Thêm vào giỏ</button>
+                <a href="@Url.Action("Index")" class="btn btn-outline-secondary">Quay lại</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sản phẩm liên quan -->
+    <div class="mt-5">
+        <h5>Sản phẩm liên quan</h5>
+        <div class="row">
+            @foreach (tblSach sach in ViewBag.DSLQ)
+            {
+                <div class="col-md-3 mb-3">
+                    <div class="card">
+                        <img src="~/Content/Images/@sach.AnhBia" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title">@sach.TenSach</h6>
+                            <p>@String.Format("{0:N0} đ", sach.GiaBan)</p>
+                            <a href="@Url.Action("Details", "Sach", new { id = sach.MaSach })" class="btn btn-sm btn-outline-primary">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+
+        </div>
+    </div>
+</div>
+    }

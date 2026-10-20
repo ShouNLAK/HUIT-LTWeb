@@ -1,0 +1,18 @@
+﻿@model IEnumerable<LTWeb_Tuan10.tblLoaiSach>
+
+<table class="table">
+    <tr>
+        <th>
+            <b>Loại sách</b>
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <a href="@Url.Action("Index", "Sach", new { ls = item.MaLoai })">@Html.DisplayFor(modelItem => item.TenLoai)</a>
+        </td>
+    </tr>
+}
+
+</table>
